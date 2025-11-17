@@ -60,34 +60,11 @@ Here are example screenshots:
 
 | Method            | Screenshot                                 |
 |-------------------|--------------------------------------------|
-| POST `/books`     | ![POST book](assets/screenshot-1.png)  |
-| DELETE `/books/:id`| ![DELETE book](assets/screenshot-2.png) |
+| POST `/books`     | <img src="assets/screenshot-1.png" width="400" />  |
 
 ---
 
 ## 📖 Example API Request & Response
-
-### Add a Book (`POST /books`)
-- **Request Body**
- ```
- {
-   "title": "Clean Code",
-   "author": "Robert C. Martin"
- }
- ```
-
-- **Response**
- ```
- {
-   "success": true,
-   "message": "Book added successfully",
-   "data": {
-     "id": 4,
-     "title": "Clean Code",
-     "author": "Robert C. Martin"
-   }
- }
- ```
 
 ### Update a Book (`PUT /books/:id`)
 - **Request Body** (either field optional)
