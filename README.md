@@ -61,6 +61,7 @@ Here are example screenshots:
 | Method            | Screenshot                                 |
 |-------------------|--------------------------------------------|
 | POST `/books`     | <img src="assets/screenshot-1.png" width="400" />  |
+| DELETE `/books/:id` | <img src="assets/screenshot-2.png" width="400" /> |
 
 ---
 
